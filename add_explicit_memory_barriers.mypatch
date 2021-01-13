@@ -1,3 +1,8 @@
+From: Zebediah Figura
+Date: Sat, 09 Jan 2021 20:48:45 -0600
+Subject: [patch] add explicit memory barriers 
+
+---
 diff --git a/dlls/ntdll/sync.c b/dlls/ntdll/sync.c
 index a3abe271b04..2b47b7593da 100644
 --- a/dlls/ntdll/sync.c
